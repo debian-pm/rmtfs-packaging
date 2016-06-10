@@ -1,3 +1,9 @@
+rmtfs (0.0+0+dc7de6e-2) jessie; urgency=medium
+
+  * debian: add rmtfs systemd service script
+
+ -- Nicolas Dechesne <nicolas.dechesne@linaro.org>  Fri, 10 Jun 2016 14:01:10 +0200
+
 rmtfs (0.0+0+dc7de6e-1) jessie; urgency=low
 
   * Initial Release.
