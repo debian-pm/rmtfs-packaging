@@ -12,7 +12,8 @@ Package: rmtfs
 Architecture: any
 Depends:
  ${shlibs:Depends},
- ${misc:Depends}
+ ${misc:Depends},
+ qrtr
 Description: RMTFS QMI service
  The QDSP firmware requires access to storage, through the RMTFS QMI service.
  Implement this service to allow for us to load the QDSP firmware on relevant
