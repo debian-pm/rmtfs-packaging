@@ -1,3 +1,9 @@
+rmtfs (0.0+0+dc7de6e-3) jessie; urgency=medium
+
+  * debian: add dependency on qrtr package
+
+ -- Nicolas Dechesne <nicolas.dechesne@linaro.org>  Wed, 15 Jun 2016 11:04:46 +0300
+
 rmtfs (0.0+0+dc7de6e-2) jessie; urgency=medium
 
   * debian: add rmtfs systemd service script
