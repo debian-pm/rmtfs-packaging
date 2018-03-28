@@ -2,18 +2,17 @@ Source: rmtfs
 Section: utils
 Priority: optional
 Maintainer: Nicolas Dechesne <nicolas.dechesne@linaro.org>
-Build-Depends: cdbs, debhelper (>= 7), qmic, libqrtr-dev
-Standards-Version: 3.9.3
+Build-Depends: cdbs, debhelper (>= 11), qmic, libqrtr-dev
+Standards-Version: 4.1.3
 Homepage: https://github.com/andersson/rmtfs.git
-Vcs-Git: https://github.com/andersson/rmtfs.git
-Vcs-Browser: https://github.com/andersson/rmtfs.git
+Vcs-Git: git://github.com/debian-pm/rmtfs-packaging.git
+Vcs-Browser: https://github.com/debian-pm/rmtfs-packaging
 
 Package: rmtfs
 Architecture: any
-Depends:
- ${shlibs:Depends},
- ${misc:Depends},
- qrtr
+Depends: ${shlibs:Depends},
+                  ${misc:Depends},
+                  qrtr
 Description: RMTFS QMI service
  The QDSP firmware requires access to storage, through the RMTFS QMI service.
  Implement this service to allow for us to load the QDSP firmware on relevant
